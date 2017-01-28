@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/winter"
+    android:id="@+id/activity_cuarto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3º Reto"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:fontFamily="cursive"
+            android:textColor="#FFFF4081"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:text="Busca un plato principal para cenar en la noche de navidad, lo importante es disfrutarlo todos juntos no importando cual plato prepares, no lo olvides, la intención es compartir."
+            android:textSize="23sp"
+            android:textColor="#f1f102"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/cena"
+            />
+
+        <Button
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Hecho"
+            android:layout_gravity="right"
+            android:id="@+id/btn_4" />
+    </LinearLayout>
+</LinearLayout>
+
